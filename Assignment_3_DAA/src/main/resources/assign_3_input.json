@@ -1,0 +1,68 @@
+{
+  "graphs": [
+    {
+      "id": 1,
+      "type": "small",
+      "nodes": ["A", "B", "C", "D"],
+      "edges": [
+        {"from": "A", "to": "B", "weight": 3},
+        {"from": "A", "to": "C", "weight": 1},
+        {"from": "B", "to": "C", "weight": 7},
+        {"from": "B", "to": "D", "weight": 5},
+        {"from": "C", "to": "D", "weight": 2}
+      ]
+    },
+    {
+      "id": 2,
+      "type": "medium",
+      "nodes": ["V0", "V1", "V2", "V3", "V4", "V5", "V6", "V7", "V8", "V9"],
+      "edges": [
+        {"from": "V0", "to": "V1", "weight": 4},
+        {"from": "V0", "to": "V2", "weight": 8},
+        {"from": "V1", "to": "V2", "weight": 11},
+        {"from": "V2", "to": "V3", "weight": 7},
+        {"from": "V3", "to": "V4", "weight": 9},
+        {"from": "V4", "to": "V5", "weight": 10},
+        {"from": "V5", "to": "V6", "weight": 2},
+        {"from": "V6", "to": "V7", "weight": 1},
+        {"from": "V7", "to": "V8", "weight": 7},
+        {"from": "V8", "to": "V9", "weight": 4},
+        {"from": "V9", "to": "V0", "weight": 8},
+        {"from": "V3", "to": "V5", "weight": 14},
+        {"from": "V2", "to": "V8", "weight": 6}
+      ]
+    },
+    {
+      "id": 3,
+      "type": "large",
+      "nodes": [
+        "V0","V1","V2","V3","V4","V5","V6","V7","V8","V9",
+        "V10","V11","V12","V13","V14","V15","V16","V17","V18","V19"
+      ],
+      "edges": [
+        {"from": "V0", "to": "V1", "weight": 5},
+        {"from": "V1", "to": "V2", "weight": 7},
+        {"from": "V2", "to": "V3", "weight": 9},
+        {"from": "V3", "to": "V4", "weight": 3},
+        {"from": "V4", "to": "V5", "weight": 12},
+        {"from": "V5", "to": "V6", "weight": 4},
+        {"from": "V6", "to": "V7", "weight": 8},
+        {"from": "V7", "to": "V8", "weight": 6},
+        {"from": "V8", "to": "V9", "weight": 11},
+        {"from": "V9", "to": "V10", "weight": 5},
+        {"from": "V10", "to": "V11", "weight": 9},
+        {"from": "V11", "to": "V12", "weight": 7},
+        {"from": "V12", "to": "V13", "weight": 2},
+        {"from": "V13", "to": "V14", "weight": 6},
+        {"from": "V14", "to": "V15", "weight": 4},
+        {"from": "V15", "to": "V16", "weight": 3},
+        {"from": "V16", "to": "V17", "weight": 9},
+        {"from": "V17", "to": "V18", "weight": 7},
+        {"from": "V18", "to": "V19", "weight": 5},
+        {"from": "V0", "to": "V10", "weight": 10},
+        {"from": "V5", "to": "V15", "weight": 11},
+        {"from": "V8", "to": "V19", "weight": 8}
+      ]
+    }
+  ]
+}

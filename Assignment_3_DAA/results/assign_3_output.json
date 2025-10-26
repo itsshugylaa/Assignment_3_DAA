@@ -1,0 +1,377 @@
+{
+  "results": [
+    {
+      "graph_id": 1,
+      "input_stats": {
+        "vertices": 4,
+        "edges": 5
+      },
+      "prim": {
+        "mst_edges": [
+          {
+            "from": "A",
+            "to": "C",
+            "weight": 1
+          },
+          {
+            "from": "C",
+            "to": "D",
+            "weight": 2
+          },
+          {
+            "from": "A",
+            "to": "B",
+            "weight": 3
+          }
+        ],
+        "total_cost": 6,
+        "operations_count": 8,
+        "execution_time_ms": 0.416084
+      },
+      "kruskal": {
+        "mst_edges": [
+          {
+            "from": "A",
+            "to": "C",
+            "weight": 1
+          },
+          {
+            "from": "C",
+            "to": "D",
+            "weight": 2
+          },
+          {
+            "from": "A",
+            "to": "B",
+            "weight": 3
+          }
+        ],
+        "total_cost": 6,
+        "operations_count": 13,
+        "execution_time_ms": 1.639083
+      }
+    },
+    {
+      "graph_id": 2,
+      "input_stats": {
+        "vertices": 10,
+        "edges": 13
+      },
+      "prim": {
+        "mst_edges": [
+          {
+            "from": "V0",
+            "to": "V1",
+            "weight": 4
+          },
+          {
+            "from": "V0",
+            "to": "V9",
+            "weight": 8
+          },
+          {
+            "from": "V9",
+            "to": "V8",
+            "weight": 4
+          },
+          {
+            "from": "V8",
+            "to": "V2",
+            "weight": 6
+          },
+          {
+            "from": "V8",
+            "to": "V7",
+            "weight": 7
+          },
+          {
+            "from": "V7",
+            "to": "V6",
+            "weight": 1
+          },
+          {
+            "from": "V6",
+            "to": "V5",
+            "weight": 2
+          },
+          {
+            "from": "V2",
+            "to": "V3",
+            "weight": 7
+          },
+          {
+            "from": "V3",
+            "to": "V4",
+            "weight": 9
+          }
+        ],
+        "total_cost": 48,
+        "operations_count": 23,
+        "execution_time_ms": 0.031834
+      },
+      "kruskal": {
+        "mst_edges": [
+          {
+            "from": "V6",
+            "to": "V7",
+            "weight": 1
+          },
+          {
+            "from": "V5",
+            "to": "V6",
+            "weight": 2
+          },
+          {
+            "from": "V0",
+            "to": "V1",
+            "weight": 4
+          },
+          {
+            "from": "V8",
+            "to": "V9",
+            "weight": 4
+          },
+          {
+            "from": "V2",
+            "to": "V8",
+            "weight": 6
+          },
+          {
+            "from": "V2",
+            "to": "V3",
+            "weight": 7
+          },
+          {
+            "from": "V7",
+            "to": "V8",
+            "weight": 7
+          },
+          {
+            "from": "V0",
+            "to": "V2",
+            "weight": 8
+          },
+          {
+            "from": "V3",
+            "to": "V4",
+            "weight": 9
+          }
+        ],
+        "total_cost": 48,
+        "operations_count": 49,
+        "execution_time_ms": 0.034792
+      }
+    },
+    {
+      "graph_id": 3,
+      "input_stats": {
+        "vertices": 20,
+        "edges": 22
+      },
+      "prim": {
+        "mst_edges": [
+          {
+            "from": "V0",
+            "to": "V1",
+            "weight": 5
+          },
+          {
+            "from": "V1",
+            "to": "V2",
+            "weight": 7
+          },
+          {
+            "from": "V2",
+            "to": "V3",
+            "weight": 9
+          },
+          {
+            "from": "V3",
+            "to": "V4",
+            "weight": 3
+          },
+          {
+            "from": "V0",
+            "to": "V10",
+            "weight": 10
+          },
+          {
+            "from": "V10",
+            "to": "V9",
+            "weight": 5
+          },
+          {
+            "from": "V10",
+            "to": "V11",
+            "weight": 9
+          },
+          {
+            "from": "V11",
+            "to": "V12",
+            "weight": 7
+          },
+          {
+            "from": "V12",
+            "to": "V13",
+            "weight": 2
+          },
+          {
+            "from": "V13",
+            "to": "V14",
+            "weight": 6
+          },
+          {
+            "from": "V14",
+            "to": "V15",
+            "weight": 4
+          },
+          {
+            "from": "V15",
+            "to": "V16",
+            "weight": 3
+          },
+          {
+            "from": "V16",
+            "to": "V17",
+            "weight": 9
+          },
+          {
+            "from": "V17",
+            "to": "V18",
+            "weight": 7
+          },
+          {
+            "from": "V18",
+            "to": "V19",
+            "weight": 5
+          },
+          {
+            "from": "V19",
+            "to": "V8",
+            "weight": 8
+          },
+          {
+            "from": "V8",
+            "to": "V7",
+            "weight": 6
+          },
+          {
+            "from": "V7",
+            "to": "V6",
+            "weight": 8
+          },
+          {
+            "from": "V6",
+            "to": "V5",
+            "weight": 4
+          }
+        ],
+        "total_cost": 117,
+        "operations_count": 41,
+        "execution_time_ms": 0.054
+      },
+      "kruskal": {
+        "mst_edges": [
+          {
+            "from": "V12",
+            "to": "V13",
+            "weight": 2
+          },
+          {
+            "from": "V3",
+            "to": "V4",
+            "weight": 3
+          },
+          {
+            "from": "V15",
+            "to": "V16",
+            "weight": 3
+          },
+          {
+            "from": "V5",
+            "to": "V6",
+            "weight": 4
+          },
+          {
+            "from": "V14",
+            "to": "V15",
+            "weight": 4
+          },
+          {
+            "from": "V0",
+            "to": "V1",
+            "weight": 5
+          },
+          {
+            "from": "V9",
+            "to": "V10",
+            "weight": 5
+          },
+          {
+            "from": "V18",
+            "to": "V19",
+            "weight": 5
+          },
+          {
+            "from": "V7",
+            "to": "V8",
+            "weight": 6
+          },
+          {
+            "from": "V13",
+            "to": "V14",
+            "weight": 6
+          },
+          {
+            "from": "V1",
+            "to": "V2",
+            "weight": 7
+          },
+          {
+            "from": "V11",
+            "to": "V12",
+            "weight": 7
+          },
+          {
+            "from": "V17",
+            "to": "V18",
+            "weight": 7
+          },
+          {
+            "from": "V6",
+            "to": "V7",
+            "weight": 8
+          },
+          {
+            "from": "V8",
+            "to": "V19",
+            "weight": 8
+          },
+          {
+            "from": "V2",
+            "to": "V3",
+            "weight": 9
+          },
+          {
+            "from": "V10",
+            "to": "V11",
+            "weight": 9
+          },
+          {
+            "from": "V16",
+            "to": "V17",
+            "weight": 9
+          },
+          {
+            "from": "V0",
+            "to": "V10",
+            "weight": 10
+          }
+        ],
+        "total_cost": 117,
+        "operations_count": 92,
+        "execution_time_ms": 0.081208
+      }
+    }
+  ]
+}
